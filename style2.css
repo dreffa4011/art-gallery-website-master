@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #151515;
+}
+
+.locationSection img {
+    width: 100vw;
+    height: 685px;
+}
+
+.backbtn {
+    position: absolute;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.backbtn div {
+    background-color:#D5966C;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #151515;
+    color: white;
+    width: 208px;
+    height: 72px;
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* --------------------------- location section 2 ================= */
+
+
+.locationSection2 {
+    background-color: #151515;
+    width: 100vw;
+    height: 548px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.leftSide {
+    display: flex;
+    margin-left: 156px;
+    margin-top: 104px;
+}
+
+.leftSide h1 {
+    font-family: Big Shoulders Display;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    margin-top: 104px;
+}
+
+.title {
+    font-family: Big Shoulders Display;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #D5966C;
+    margin-bottom: 24px;
+}
+
+.adress {
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+.text {
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+/* -------------------- footer --------------------- */
+
+footer {
+    width: 100vw;
+    height: 244px;
+    background-color: #D5966C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    color: #151515;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    margin-right: 40px;
+}
+
+footer p {
+    color: #151515;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 32px;
+}
